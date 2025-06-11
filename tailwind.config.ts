@@ -32,7 +32,7 @@ export default {
         'heading-hgg': ['54px', { lineHeight: '54px', fontWeight: '600' }],
         'heading-hg': ['40px', { lineHeight: '40px', fontWeight: '600' }],
         'heading-xll': ['36px', { lineHeight: '46px', fontWeight: '600' }],
-        // 'heading-xl': ['32px', { lineHeight: '120%', fontWeight: '700' }],
+        'heading-xl': ['26px', { lineHeight: '36px', fontWeight: '600' }],
         // 'heading-lg': ['28px', { lineHeight: '120%', fontWeight: '700' }],
         // 'heading-md': ['24px', { lineHeight: '120%', fontWeight: '700' }],
         'heading-sm': ['20px', { lineHeight: '30px', fontWeight: '600' }],

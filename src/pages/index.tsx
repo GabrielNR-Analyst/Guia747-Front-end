@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <LayoutApp>
       <h1 
-        className="text-heading-xll text-cyan-900 font-barlow 
+        className="text-heading-xl md:text-heading-xll text-cyan-900 font-barlow 
         font-semibold leading-10 p-10"
         >
         Selecione uma cidade

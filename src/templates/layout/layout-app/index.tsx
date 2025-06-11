@@ -14,8 +14,8 @@ export function LayoutApp({
   return (
     <div className="bg-slate-white">
       <HeaderApp />
-      <div className="bg-background h-screen">
-        <main className="max-w-[1120px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="bg-background flex flex-col min-h-screen">
+        <main className="max-w-[1120px] mx-auto ">
           {children}
         </main>
       </div>
