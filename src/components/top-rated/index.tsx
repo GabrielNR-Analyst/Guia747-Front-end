@@ -6,7 +6,7 @@ import { Coffee, Star } from "lucide-react"
 
 export function TopRated() {
   return (
-    <section className=" mx-auto max-w-7xl px-4 sm:px-6 ls:px-80 mb-8">
+    <section className=" mx-auto max-w-7xl mb-8">
       
       <h2 className="text-heading-xll font-barlow text-textTitle 
         mx-auto max-w-7xl px-4 sm:px-6 ls:px-80 mt-28 mb-8"

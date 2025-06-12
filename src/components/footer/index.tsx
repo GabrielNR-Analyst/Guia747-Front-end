@@ -10,17 +10,17 @@ export function Footer() {
             <Image src="/logo.svg" alt="Logo site" width={116} height={32} />
           </Link>
 
-          <nav className="flex flex-col md:flex-row items-center gap-4 text-sm text-muted-foreground">
-            <Link href="/termos-de-uso" className="hover:text-primary">
+          <nav className="flex flex-col md:flex-row items-center gap-4 text-heading-xs font-barlow text-textComplement">
+            <Link href="/termos-de-uso" className="hover:text-textComplement/80">
               Termos de uso
             </Link>
             <Link
               href="/politica-de-privacidade"
-              className="hover:text-primary"
+              className="hover:text-textComplement/80"
             >
               Política de privacidade
             </Link>
-            <Link href="/feedback" className="hover:text-primary">
+            <Link href="/feedback" className="hover:text-textComplement/80">
               Feedback
             </Link>
           </nav>
