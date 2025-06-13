@@ -76,7 +76,6 @@ const cities: CitiesProps[] = [
 ]
 
 
-
 // Function
 export default function Home() {
   const router = useRouter();
@@ -104,12 +103,10 @@ export default function Home() {
   }, [router.query.q]); // Dependência: executa quando o parâmetro 'q' da URL muda
 
 
-
-
   return (
     <LayoutApp>
-        {/* Condicional para exibir o H1 e os filtros */}
-        {!noResultsFound && ( // Só exibe se NÃO houver "sem resultados"
+      {/* Condicional para exibir o H1 e os filtros */}
+      {!noResultsFound && ( // Só exibe se NÃO houver "sem resultados"
         <div className="relative flex items-center justify-between">
           <h1 
             className="text-heading-xl md:text-heading-xll text-cyan-900 font-barlow 
